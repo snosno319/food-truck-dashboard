@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T09:11:59.293Z",
+  "last_updated": "2026-02-18T12:04:38.541Z",
   "week_start": "2026-02-18",
   "week_end": "2026-02-24",
   "source_runs": [
@@ -11,7 +11,7 @@
     {
       "venue_id": "otemachi-place",
       "status": "ok",
-      "entries_count": 14
+      "entries_count": 16
     },
     {
       "venue_id": "otemachi-park",
@@ -40,7 +40,7 @@
     }
   ],
   "data_quality": {
-    "total_entries": 124,
+    "total_entries": 127,
     "venues_scraped": 7,
     "weekdays_in_window": 5,
     "per_venue": {
@@ -51,7 +51,7 @@
         "missing_weekdays": []
       },
       "otemachi-place": {
-        "total_entries": 17,
+        "total_entries": 19,
         "days_with_data": 5,
         "weekdays_in_window": 5,
         "missing_weekdays": []
@@ -81,7 +81,7 @@
         "missing_weekdays": []
       },
       "sankei": {
-        "total_entries": 20,
+        "total_entries": 21,
         "days_with_data": 3,
         "weekdays_in_window": 5,
         "missing_weekdays": [
@@ -711,6 +711,21 @@
       "date": "2026-02-20",
       "venue_id": "sankei",
       "truck_id": "truck-1771405919291"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "otemachi-place",
+      "truck_id": "truck-1771416278533"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "otemachi-place",
+      "truck_id": "kuokoa"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771416278540"
     }
   ]
 }

@@ -1213,6 +1213,33 @@
       "contact_instagram": "",
       "accepts_preorder": false,
       "url": ""
+    },
+    {
+      "id": "truck-1771416278533",
+      "name": "海鮮ボンクラージュ海鮮丼",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "kuokoa",
+      "name": "KUOKOAタコライス",
+      "cuisine": "okinawan",
+      "cuisine_label": "沖縄料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771416278540",
+      "name": "カーニャパッソ",
+      "cuisine": "unknown",
+      "cuisine_label": "?",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
     }
   ]
 }
