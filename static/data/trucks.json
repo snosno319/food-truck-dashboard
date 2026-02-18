@@ -1,0 +1,1218 @@
+{
+  "last_updated": "2026-02-18",
+  "venues": [
+    {
+      "id": "kawabata",
+      "name": "大手町川端フードガーデン",
+      "name_en": "Otemachi Kawabata Food Garden",
+      "lat": 35.68835,
+      "lng": 139.7662,
+      "address": "千代田区大手町1-9-5",
+      "hours": "11:00-14:00",
+      "source_url": "https://otemachi-foodgarden.com/list/",
+      "note": "日本橋川沿いの遊歩道。毎日約10台が出店。"
+    },
+    {
+      "id": "otemachi-place",
+      "name": "大手町プレイス",
+      "name_en": "Otemachi Place",
+      "lat": 35.687194,
+      "lng": 139.7665,
+      "address": "千代田区大手町2-3-1",
+      "hours": "11:30-13:30",
+      "source_url": "https://www.mellow.jp/ss_web/markets/G7TyQW",
+      "note": "イーストタワー・ウエストタワー周辺。最新情報は「SHOP STOP」アプリを確認。"
+    },
+    {
+      "id": "sankei",
+      "name": "東京サンケイビル (ネオ屋台村)",
+      "name_en": "Tokyo Sankei Building (Neo Yatai Mura)",
+      "lat": 35.6873,
+      "lng": 139.7656,
+      "address": "千代田区大手町1-7-2",
+      "hours": "11:15-14:00",
+      "source_url": "https://www.w-tokyodo.com/neostall/space/lunch/?lunch=%E6%9D%B1%E4%BA%AC%E3%82%B5%E3%83%B3%E3%82%B1%E3%82%A4%E3%83%93%E3%83%AB%20%E3%83%8D%E3%82%AA%E5%B1%8B%E5%8F%B0%E6%9D%91",
+      "note": "駅直結、メトロスクエアフラット。日替わり。"
+    },
+    {
+      "id": "marunouchi-trust",
+      "name": "丸の内トラストシティ",
+      "name_en": "Marunouchi Trust City",
+      "lat": 35.683668,
+      "lng": 139.769675,
+      "address": "千代田区丸の内1-8-1",
+      "hours": "11:30-14:30",
+      "source_url": "https://www.mellow.jp/ss_web/markets/8bTX0",
+      "note": "トラストタワー本館前。SHOP STOPが運営。"
+    },
+    {
+      "id": "otemachi-park",
+      "name": "大手町パークビル",
+      "name_en": "Otemachi Park Building",
+      "lat": 35.68664,
+      "lng": 139.7634,
+      "address": "千代田区大手町1-1-1",
+      "hours": "11:30-14:00",
+      "source_url": "https://www.mellow.jp/ss_web/markets/xVTjJY",
+      "note": "アスコット丸の内東京前。SHOP STOPが運営。"
+    },
+    {
+      "id": "tokyo-torch-tower",
+      "name": "TOKYO TORCH 常盤橋タワー",
+      "name_en": "TOKYO TORCH Tokiwabashi Tower",
+      "lat": 35.68412,
+      "lng": 139.7709,
+      "address": "千代田区大手町2-6-4",
+      "hours": "11:00-14:00",
+      "source_url": "https://www.mellow.jp/ss_web/markets/KqT2DZ",
+      "note": "常盤橋タワー1F広場。SHOP STOPが運営。"
+    },
+    {
+      "id": "tokyo-torch-park",
+      "name": "TOKYO TORCH Park",
+      "name_en": "TOKYO TORCH Park",
+      "lat": 35.68406,
+      "lng": 139.77059,
+      "address": "千代田区大手町2-6-4",
+      "hours": "11:00-14:00",
+      "source_url": "https://www.mellow.jp/ss_web/markets/VWTQ8",
+      "note": "TOKYO TORCH Park内。SHOP STOPが運営。"
+    }
+  ],
+  "trucks": [
+    {
+      "id": "lino-marama",
+      "name": "Lino Marama Cafe",
+      "cuisine": "hawaiian",
+      "cuisine_label": "ハワイアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "kitchen-agaityla",
+      "name": "Kitchen Agaityla",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "beside-u",
+      "name": "Grill Kitchen BesideU",
+      "cuisine": "meat",
+      "cuisine_label": "グリル",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "leo-street",
+      "name": "Leo Street Kitchen",
+      "cuisine": "asian",
+      "cuisine_label": "アジアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "95base",
+      "name": "95BASE",
+      "cuisine": "meat",
+      "cuisine_label": "ハンバーグ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "herbest",
+      "name": "HERBEST",
+      "cuisine": "kebab",
+      "cuisine_label": "ケバブ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "yoshinoya",
+      "name": "吉野家",
+      "cuisine": "japanese",
+      "cuisine_label": "牛丼",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "luxage",
+      "name": "Luxage",
+      "cuisine": "western",
+      "cuisine_label": "豚肩ロース",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "tida-kankan",
+      "name": "TI-DA KANKAN",
+      "cuisine": "okinawan",
+      "cuisine_label": "タコライス",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "sandoriyon",
+      "name": "Sandoriyon",
+      "cuisine": "bento",
+      "cuisine_label": "お弁当",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "32cafe",
+      "name": "3-2cafe",
+      "cuisine": "japanese",
+      "cuisine_label": "豚丼",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "my-street",
+      "name": "Papa no Omise My Street",
+      "cuisine": "okinawan",
+      "cuisine_label": "タコライス",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "otori",
+      "name": "鳳 (Otori)",
+      "cuisine": "chicken",
+      "cuisine_label": "からあげ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mamagoto",
+      "name": "まま事屋",
+      "cuisine": "japanese",
+      "cuisine_label": "鴨丼",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "senor-coppe",
+      "name": "Señor Coppe",
+      "cuisine": "bread",
+      "cuisine_label": "コッペパン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "keiki-beach",
+      "name": "Keiki Beach 83",
+      "cuisine": "hawaiian",
+      "cuisine_label": "ポキ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "udiner",
+      "name": "Ü&DINER's",
+      "cuisine": "chicken",
+      "cuisine_label": "チキンオーバーライス",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "lambz",
+      "name": "Lamb'z",
+      "cuisine": "meat",
+      "cuisine_label": "ジンギスカン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "murakawa",
+      "name": "Murakawa",
+      "cuisine": "japanese",
+      "cuisine_label": "サーモンレアカツ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "cafebb",
+      "name": "cafe bb",
+      "cuisine": "curry",
+      "cuisine_label": "牛筋カレー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "smiley",
+      "name": "Smiley Creperie",
+      "cuisine": "western",
+      "cuisine_label": "オムライス",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mr-chicken",
+      "name": "Mr.Chicken★Torihanten",
+      "cuisine": "asian",
+      "cuisine_label": "チキンライス",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "zono",
+      "name": "PARLOR ZONO",
+      "cuisine": "meat",
+      "cuisine_label": "ハンバーグ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "junk-yard",
+      "name": "JUNK YARD DOG",
+      "cuisine": "okinawan",
+      "cuisine_label": "タコライス",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "green-box",
+      "name": "Green Box",
+      "cuisine": "asian",
+      "cuisine_label": "ルーローハン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "rocket-chicken",
+      "name": "ROCKET CHICKEN",
+      "cuisine": "chicken",
+      "cuisine_label": "ロケットチキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "kusina",
+      "name": "KUSINA personal",
+      "cuisine": "asian",
+      "cuisine_label": "アドボ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "anne-may",
+      "name": "Anne&May",
+      "cuisine": "western",
+      "cuisine_label": "ハヤシライス",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "shofukudo",
+      "name": "祥福堂",
+      "cuisine": "asian",
+      "cuisine_label": "魯肉飯",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "island",
+      "name": "アイランド",
+      "cuisine": "western",
+      "cuisine_label": "ローストポーク",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "quebom",
+      "name": "Churrascaria Que bom!",
+      "cuisine": "meat",
+      "cuisine_label": "シュラスコ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "saikyoya",
+      "name": "西京屋 周",
+      "cuisine": "japanese",
+      "cuisine_label": "銀鱈弁当",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "daino",
+      "name": "CUCINA DAINO",
+      "cuisine": "italian",
+      "cuisine_label": "パスタ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "smile-tokyo",
+      "name": "SMILE TOKYO",
+      "cuisine": "asian",
+      "cuisine_label": "ビビンバ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "lahaina",
+      "name": "ラハイナテーブル",
+      "cuisine": "japanese",
+      "cuisine_label": "チャーシュー丼",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "uzura-oimo",
+      "name": "うずらとおいも",
+      "cuisine": "japanese",
+      "cuisine_label": "丼もの",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "box-lunch-casa",
+      "name": "BOX LUNCH casa",
+      "cuisine": "western",
+      "cuisine_label": "パエリア",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "fuu",
+      "name": "Fuu-",
+      "cuisine": "asian",
+      "cuisine_label": "ルーローハン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "guri-fura",
+      "name": "キッチンぐりとふら",
+      "cuisine": "chicken",
+      "cuisine_label": "からあげ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "kanbim",
+      "name": "韓美味",
+      "cuisine": "korean",
+      "cuisine_label": "韓国料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "toraju",
+      "name": "とらじゅ",
+      "cuisine": "japanese",
+      "cuisine_label": "あなごめし",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "tsutsumi",
+      "name": "つつみ",
+      "cuisine": "asian",
+      "cuisine_label": "ガパオ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "yamato",
+      "name": "肉屋のまかない弁当 やまと",
+      "cuisine": "meat",
+      "cuisine_label": "生姜焼き",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "bonappetit",
+      "name": "Bonapetite",
+      "cuisine": "chicken",
+      "cuisine_label": "ロティサリーチキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mika-banhmi",
+      "name": "MIKA Banh Mi",
+      "cuisine": "vietnamese",
+      "cuisine_label": "バインミー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "plus-spice",
+      "name": "+Spice",
+      "cuisine": "curry",
+      "cuisine_label": "インドカレー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "ren",
+      "name": "蓮 REN",
+      "cuisine": "chinese",
+      "cuisine_label": "中華",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "wa-tokyo",
+      "name": "和TOKYO",
+      "cuisine": "japanese",
+      "cuisine_label": "魚弁当",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "taiwan-saki",
+      "name": "台湾佐記麺線",
+      "cuisine": "asian",
+      "cuisine_label": "台湾麺線",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "bt-massaru",
+      "name": "BT massaru",
+      "cuisine": "meat",
+      "cuisine_label": "グリルチキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mochiko-chicken-factory",
+      "name": "MOCHIKO chicken factory",
+      "cuisine": "chicken",
+      "cuisine_label": "モチコチキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "lasagna-italiana",
+      "name": "Lasagna Italiana",
+      "cuisine": "italian",
+      "cuisine_label": "ラザニア",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "grill-tokyo",
+      "name": "Grill Tokyo",
+      "cuisine": "meat",
+      "cuisine_label": "グリル",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "ricordo",
+      "name": "東京RICORDO",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "manis-pedas",
+      "name": "MANIS PEDAS",
+      "cuisine": "asian",
+      "cuisine_label": "ナシゴレン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "tokyo-paella",
+      "name": "Tokyo Paella",
+      "cuisine": "western",
+      "cuisine_label": "パエリア",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "addict",
+      "name": "ADDICT",
+      "cuisine": "meat",
+      "cuisine_label": "ステーキ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "yummy-e",
+      "name": "yummy-E",
+      "cuisine": "asian",
+      "cuisine_label": "アジアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "izumi-express",
+      "name": "IZUMI EXPRESS",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "estokyo",
+      "name": "es.tokyo",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "spice-village",
+      "name": "SPICE VILLAGE",
+      "cuisine": "curry",
+      "cuisine_label": "カレー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "101s",
+      "name": "101's（トーイズ）",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "k-foods-kitchen",
+      "name": "K FOODS KITCHEN",
+      "cuisine": "korean",
+      "cuisine_label": "韓国料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "boucherie-gokita-tokyo",
+      "name": "Boucherie GOKITA　Tokyo",
+      "cuisine": "meat",
+      "cuisine_label": "肉料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "sicil",
+      "name": "SICIL",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "sunday-food-service",
+      "name": "Sunday food service",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "camosica",
+      "name": "CAMOSICA",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mrhalal",
+      "name": "Mr.HALAL",
+      "cuisine": "kebab",
+      "cuisine_label": "ケバブ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "fatcc",
+      "name": "FAT.C☆C",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "tabeli",
+      "name": "TABELI（タベリ）",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "manma",
+      "name": "manma",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "kai_crakey",
+      "name": "kai_crakey",
+      "cuisine": "sweets",
+      "cuisine_label": "スイーツ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771243789618",
+      "name": "ベッラクキッチン",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771243789619",
+      "name": "ミラクルキッチン",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771243789620",
+      "name": "ポチャ",
+      "cuisine": "korean",
+      "cuisine_label": "韓国料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771319209347",
+      "name": "エピス・デ・ボヌール",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771319209348",
+      "name": "アップサイズ",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771319209349",
+      "name": "雑穀甘酒カフェ美環",
+      "cuisine": "sweets",
+      "cuisine_label": "スイーツ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771319209350",
+      "name": "スマイルスパイス",
+      "cuisine": "curry",
+      "cuisine_label": "カレー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771329561502",
+      "name": "長崎屋",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771329561503",
+      "name": "ジュリーズスパイス",
+      "cuisine": "curry",
+      "cuisine_label": "カレー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771329561505",
+      "name": "パパガヤデリ",
+      "cuisine": "kebab",
+      "cuisine_label": "ファラフェル",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771329561506",
+      "name": "和食しの",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771331034968",
+      "name": "アジアンフード",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771331034970",
+      "name": "ミラーン",
+      "cuisine": "curry",
+      "cuisine_label": "南インドカレー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771331034971",
+      "name": "ビストロカルロス",
+      "cuisine": "meat",
+      "cuisine_label": "ステーキ",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771340572883",
+      "name": "ごっさむ",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "island-kitchen",
+      "name": "ISLAND KITCHEN",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "grace-lei",
+      "name": "Grace Lei",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771340572885",
+      "name": "食堂新",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "caffe-latte",
+      "name": "Caffe Latte",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771340572886",
+      "name": "オリーブ亭",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771340572887",
+      "name": "米結",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771400426438",
+      "name": "祥福堂",
+      "cuisine": "asian",
+      "cuisine_label": "アジアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771400426440",
+      "name": "韓美味",
+      "cuisine": "korean",
+      "cuisine_label": "韓国料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771400426441",
+      "name": "たこみーと",
+      "cuisine": "okinawan",
+      "cuisine_label": "沖縄料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mrchicken",
+      "name": "Mr.Chicken 鶏飯店",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "18s-kitchen-market",
+      "name": "18's Kitchen & Market",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771400426442",
+      "name": "ここにぎり",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "dandy-lion-kitchen",
+      "name": "Dandy Lion Kitchen",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "48-484",
+      "name": "ふくの鳥",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "dublin-7-food-truck",
+      "name": "DUBLIN 7 Food Truck",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "wellvide",
+      "name": "wellvide",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "okilab",
+      "name": "OKILAB",
+      "cuisine": "okinawan",
+      "cuisine_label": "沖縄料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771400426443",
+      "name": "むら川",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "2nd-base",
+      "name": "2nd BASE",
+      "cuisine": "curry",
+      "cuisine_label": "カレー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771400426444",
+      "name": "おばんざいバル つむぎ",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771400426445",
+      "name": "早稲田ゴールデン",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "chopi-rich",
+      "name": "Chopi Rich",
+      "cuisine": "asian",
+      "cuisine_label": "アジアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "wakas-kitchen3",
+      "name": "Waka's Kitchen",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mogu-mogu-stand",
+      "name": "mogu mogu stand",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "burn",
+      "name": "Burn.",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mos5050th-mos",
+      "name": "MOS Burger Kitchen Car",
+      "cuisine": "bread",
+      "cuisine_label": "パン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "kitchen",
+      "name": "まごころkitchen ととちゃん",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771400426447",
+      "name": "ぞうさん食堂",
+      "cuisine": "japanese",
+      "cuisine_label": "和食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405545492",
+      "name": "祥福堂魯肉飯＆鶏肉飯(ルーロー＆チーロー)",
+      "cuisine": "meat",
+      "cuisine_label": "肉料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405545493",
+      "name": "韓美味ダブルチキン丼",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405545494",
+      "name": "つつみガパオライス",
+      "cuisine": "asian",
+      "cuisine_label": "アジアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405545496",
+      "name": "食堂新鯖黒煮弁当",
+      "cuisine": "western",
+      "cuisine_label": "洋食",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405545497",
+      "name": "みのりんご ライトチキンカレー",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405545498",
+      "name": "むら川サーモンのレアカツ海苔弁",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405545499",
+      "name": "ここぱんキッチンチキンねばとろ丼",
+      "cuisine": "chicken",
+      "cuisine_label": "チキン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405545500",
+      "name": "ピエニ キッサ",
+      "cuisine": "unknown",
+      "cuisine_label": "?",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405919288",
+      "name": "サンドリヨン日替わり弁当",
+      "cuisine": "pork",
+      "cuisine_label": "ポーク",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405919290",
+      "name": "パパのお店　マイストリート花椒香る 和麻婆",
+      "cuisine": "curry",
+      "cuisine_label": "カレー",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771405919291",
+      "name": "バインミー☆サンドイッチサイゴンハム&豚パテのバインミー",
+      "cuisine": "pork",
+      "cuisine_label": "ポーク",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    }
+  ]
+}

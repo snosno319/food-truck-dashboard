@@ -1,0 +1,716 @@
+{
+  "last_updated": "2026-02-18T09:11:59.293Z",
+  "week_start": "2026-02-18",
+  "week_end": "2026-02-24",
+  "source_runs": [
+    {
+      "venue_id": "kawabata",
+      "status": "ok",
+      "entries_count": 35
+    },
+    {
+      "venue_id": "otemachi-place",
+      "status": "ok",
+      "entries_count": 14
+    },
+    {
+      "venue_id": "otemachi-park",
+      "status": "ok",
+      "entries_count": 9
+    },
+    {
+      "venue_id": "marunouchi-trust",
+      "status": "ok",
+      "entries_count": 10
+    },
+    {
+      "venue_id": "tokyo-torch-tower",
+      "status": "ok",
+      "entries_count": 10
+    },
+    {
+      "venue_id": "tokyo-torch-park",
+      "status": "ok",
+      "entries_count": 15
+    },
+    {
+      "venue_id": "sankei",
+      "status": "ok",
+      "entries_count": 19
+    }
+  ],
+  "data_quality": {
+    "total_entries": 124,
+    "venues_scraped": 7,
+    "weekdays_in_window": 5,
+    "per_venue": {
+      "kawabata": {
+        "total_entries": 35,
+        "days_with_data": 5,
+        "weekdays_in_window": 5,
+        "missing_weekdays": []
+      },
+      "otemachi-place": {
+        "total_entries": 17,
+        "days_with_data": 5,
+        "weekdays_in_window": 5,
+        "missing_weekdays": []
+      },
+      "otemachi-park": {
+        "total_entries": 11,
+        "days_with_data": 5,
+        "weekdays_in_window": 5,
+        "missing_weekdays": []
+      },
+      "marunouchi-trust": {
+        "total_entries": 11,
+        "days_with_data": 5,
+        "weekdays_in_window": 5,
+        "missing_weekdays": []
+      },
+      "tokyo-torch-tower": {
+        "total_entries": 12,
+        "days_with_data": 5,
+        "weekdays_in_window": 5,
+        "missing_weekdays": []
+      },
+      "tokyo-torch-park": {
+        "total_entries": 18,
+        "days_with_data": 5,
+        "weekdays_in_window": 5,
+        "missing_weekdays": []
+      },
+      "sankei": {
+        "total_entries": 20,
+        "days_with_data": 3,
+        "weekdays_in_window": 5,
+        "missing_weekdays": [
+          "2026-02-23",
+          "2026-02-24"
+        ]
+      }
+    }
+  },
+  "schedule": [
+    {
+      "date": "2026-02-23",
+      "venue_id": "kawabata",
+      "truck_id": "lino-marama"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "kawabata",
+      "truck_id": "kitchen-agaityla"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "kawabata",
+      "truck_id": "beside-u"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "kawabata",
+      "truck_id": "leo-street"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "kawabata",
+      "truck_id": "95base"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "kawabata",
+      "truck_id": "herbest"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "kawabata",
+      "truck_id": "101s"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771243789618"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771319209347"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "kawabata",
+      "truck_id": "k-foods-kitchen"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "kawabata",
+      "truck_id": "yoshinoya"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771319209348"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771329561502"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "boucherie-gokita-tokyo"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "sicil"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771329561503"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "sunday-food-service"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "camosica"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "leo-street"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "kawabata",
+      "truck_id": "101s"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "herbest"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771319209348"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "boucherie-gokita-tokyo"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771243789619"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771331034968"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771243789618"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771340572883"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "mrhalal"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "kawabata",
+      "truck_id": "yoshinoya"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "kawabata",
+      "truck_id": "lino-marama"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "kawabata",
+      "truck_id": "kitchen-agaityla"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "kawabata",
+      "truck_id": "fatcc"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "kawabata",
+      "truck_id": "tabeli"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "kawabata",
+      "truck_id": "manma"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "kawabata",
+      "truck_id": "leo-street"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "otemachi-place",
+      "truck_id": "kusina"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "otemachi-place",
+      "truck_id": "anne-may"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "otemachi-place",
+      "truck_id": "truck-1771400426438"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "otemachi-place",
+      "truck_id": "truck-1771400426438"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "otemachi-place",
+      "truck_id": "island"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "otemachi-place",
+      "truck_id": "quebom"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "otemachi-place",
+      "truck_id": "saikyoya"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "otemachi-place",
+      "truck_id": "otori"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "otemachi-place",
+      "truck_id": "mamagoto"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "otemachi-place",
+      "truck_id": "senor-coppe"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "otemachi-place",
+      "truck_id": "daino"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "otemachi-place",
+      "truck_id": "smile-tokyo"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "otemachi-place",
+      "truck_id": "lahaina"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "otemachi-place",
+      "truck_id": "kai_crakey"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "otemachi-park",
+      "truck_id": "uzura-oimo"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "otemachi-park",
+      "truck_id": "box-lunch-casa"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "otemachi-park",
+      "truck_id": "fuu"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "otemachi-park",
+      "truck_id": "guri-fura"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "otemachi-park",
+      "truck_id": "truck-1771400426440"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "otemachi-park",
+      "truck_id": "toraju"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "otemachi-park",
+      "truck_id": "truck-1771400426440"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "otemachi-park",
+      "truck_id": "saikyoya"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "otemachi-park",
+      "truck_id": "yamato"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "zono"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "truck-1771400426441"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "island-kitchen"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "truck-1771331034970"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "grace-lei"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "truck-1771331034971"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "truck-1771400426441"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "caffe-latte"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "mrchicken"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "box-lunch-casa"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "18s-kitchen-market"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "truck-1771400426442"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "dandy-lion-kitchen"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "truck-1771400426442"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "48-484"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "dublin-7-food-truck"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "wellvide"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "okilab"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "truck-1771400426443"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "2nd-base"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771400426444"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "mrchicken"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771400426445"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "chopi-rich"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771400426445"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "wakas-kitchen3"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "mogu-mogu-stand"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "burn"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "yamato"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771243789618"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "island"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "mos5050th-mos"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "kitchen"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771331034970"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "sankei",
+      "truck_id": "ricordo"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "sankei",
+      "truck_id": "manis-pedas"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771243789620"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771340572886"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771329561506"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771400426447"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "sankei",
+      "truck_id": "tokyo-paella"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771340572887"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "sankei",
+      "truck_id": "addict"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "sankei",
+      "truck_id": "yummy-e"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "izumi-express"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771331034971"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "estokyo"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771400426447"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "spice-village"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771319209350"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "otemachi-place",
+      "truck_id": "truck-1771405545492"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "otemachi-place",
+      "truck_id": "truck-1771405545492"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "otemachi-park",
+      "truck_id": "truck-1771405545493"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "otemachi-park",
+      "truck_id": "truck-1771405545494"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "truck-1771405545496"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "truck-1771405545497"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "truck-1771405545498"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771405545498"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771405545499"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771405545499"
+    },
+    {
+      "date": "2026-02-19",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771405545500"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771405545500"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "otemachi-place",
+      "truck_id": "truck-1771405919288"
+    },
+    {
+      "date": "2026-02-23",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771405919290"
+    },
+    {
+      "date": "2026-02-18",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771405919291"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771405919291"
+    }
+  ]
+}
