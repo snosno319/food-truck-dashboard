@@ -29,29 +29,29 @@ import { FETCH_OPTIONS } from '../config.js';
 const BASE_URL = 'https://www.mellow.jp';
 
 /**
- * Extract the shop name from a schedule card's full text.
- * @param {string} text - Full concatenated text of the card
+ * Extract the shop name from the card's structured HTML.
+ * Mellow cards have: <div class="card-title fw-bold">ShopName</div>
+ * Falls back to text-based extraction if the HTML structure isn't found.
+ * @param {import('cheerio').Cheerio} $el - The <a> element wrapping the card
+ * @param {import('cheerio').CheerioAPI} $ - Cheerio instance
  * @returns {string} Extracted shop name
  */
-function extractShopName(text) {
-    let s = text;
+function extractShopName($el, $) {
+    // Primary: use the structured card-title element
+    const cardTitle = $el.find('.card-title').first().text().trim();
+    if (cardTitle && cardTitle.length >= 2) {
+        return cardTitle;
+    }
 
-    // Remove day pattern at start: "毎週月曜日" or "2026/02/17" or "2/17"
+    // Fallback: strip known patterns from the concatenated text
+    let s = $el.text().trim();
     s = s.replace(/^毎週[日月火水木金土]曜日/, '');
     s = s.replace(/^\d{4}\/\d{1,2}\/\d{1,2}/, '');
     s = s.replace(/^\d{1,2}\/\d{1,2}/, '');
-
-    // Remove time pattern: "11:30 〜 13:30" or "11:30～13:30"
     s = s.replace(/\d{1,2}:\d{2}\s*[〜～~]\s*\d{1,2}:\d{2}/, '');
-
-    // Remove "次回出店 X月Y日" at end
     s = s.replace(/次回出店\s*\d{1,2}月\d{1,2}日/, '');
-
-    // Remove "次回出店 YYYY/MM/DD"
     s = s.replace(/次回出店\s*\d{4}\/\d{1,2}\/\d{1,2}/, '');
-
-    s = s.trim();
-    return s;
+    return s.trim();
 }
 
 /**
@@ -128,8 +128,8 @@ export async function scrape(config, weekDates) {
         const fullText = $el.text().trim();
         if (!fullText || fullText.length < 5) return;
 
-        // Extract the shop name
-        const rawName = extractShopName(fullText);
+        // Extract the shop name from structured HTML (not concatenated text)
+        const rawName = extractShopName($el, $);
         if (!rawName || rawName.length < 2) return;
 
         // Extract shop path for detail fetching

@@ -2,10 +2,10 @@
 	/* Palette */
 	--primary: #000000;
 	--primary-hover: #333333;
+	--primary-dark: #000000;
 	--accent: #06C167;
-	/* Uber Eats Green */
+	--success: #06C167;
 	--danger: #E21B5A;
-	/* Uber Eats Red */
 
 	--bg: #F6F6F6;
 	--surface-1: #FFFFFF;
@@ -39,6 +39,10 @@
 
 	--primary: #FFFFFF;
 	--primary-hover: #E0E0E0;
+	--primary-dark: #CCCCCC;
+	--accent: #06C167;
+	--success: #06C167;
+	--danger: #FF6B8A;
 
 	--text: #E0E0E0;
 	--text-light: #A0A0A0;

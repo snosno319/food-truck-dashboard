@@ -1181,8 +1181,8 @@
     {
       "id": "truck-1771405545500",
       "name": "ピエニ キッサ",
-      "cuisine": "unknown",
-      "cuisine_label": "?",
+      "cuisine": "sweets",
+      "cuisine_label": "スイーツ",
       "contact_instagram": "",
       "accepts_preorder": false,
       "url": ""
@@ -1215,8 +1215,8 @@
       "url": ""
     },
     {
-      "id": "truck-1771416278533",
-      "name": "海鮮ボンクラージュ海鮮丼",
+      "id": "truck-1771418341566",
+      "name": "海鮮ボンクラージュ",
       "cuisine": "japanese",
       "cuisine_label": "和食",
       "contact_instagram": "",
@@ -1225,7 +1225,7 @@
     },
     {
       "id": "kuokoa",
-      "name": "KUOKOAタコライス",
+      "name": "KUOKOA",
       "cuisine": "okinawan",
       "cuisine_label": "沖縄料理",
       "contact_instagram": "",
@@ -1233,10 +1233,28 @@
       "url": ""
     },
     {
-      "id": "truck-1771416278540",
+      "id": "wakas-kitchen",
+      "name": "Waka’s  kitchen",
+      "cuisine": "asian",
+      "cuisine_label": "アジアン",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "mos50",
+      "name": "モスのキッチンカー「MOS50一号車」",
+      "cuisine": "meat",
+      "cuisine_label": "肉料理",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "truck-1771418341569",
       "name": "カーニャパッソ",
-      "cuisine": "unknown",
-      "cuisine_label": "?",
+      "cuisine": "italian",
+      "cuisine_label": "イタリアン",
       "contact_instagram": "",
       "accepts_preorder": false,
       "url": ""

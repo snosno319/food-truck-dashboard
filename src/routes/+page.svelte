@@ -16,7 +16,7 @@
 		currentTime,
 		createScheduleStores,
 	} from "$lib/stores/schedule.js";
-	import { buildDays } from "$lib/utils.js";
+	import { buildDays, formatDateJP } from "$lib/utils.js";
 	import { writable } from "svelte/store";
 
 	export let data;
@@ -418,17 +418,7 @@
 	{/if}
 
 	<footer class="app-footer">
-		<p>
-			最終更新: {new Date(data.schedule.last_updated).toLocaleString(
-				"ja-JP",
-				{
-					month: "short",
-					day: "numeric",
-					hour: "2-digit",
-					minute: "2-digit",
-				},
-			)}
-		</p>
+		<p>最終更新: {formatDateJP(new Date(data.schedule.last_updated))}</p>
 	</footer>
 
 	<button
@@ -566,7 +556,7 @@
 		align-items: center;
 		gap: 0.5rem;
 		background: var(--surface-1);
-		border: 1.5px solid rgba(0, 0, 0, 0.08);
+		border: 1.5px solid var(--border);
 		border-radius: 12px;
 		padding: 0.5rem 0.75rem;
 		margin-bottom: 0.75rem;
@@ -623,7 +613,7 @@
 		align-items: center;
 		gap: 0.4rem;
 		padding: 0.4rem 0.75rem;
-		background: linear-gradient(135deg, #fff0f3, #fff5f5);
+		background: color-mix(in srgb, var(--danger) 8%, var(--surface-1));
 		border-radius: 10px;
 		font-size: 0.8rem;
 		color: var(--text);
@@ -711,7 +701,7 @@
 	}
 
 	.open-badge {
-		background-color: #e6fcf5;
+		background-color: color-mix(in srgb, var(--success) 12%, transparent);
 		color: var(--success);
 		font-size: 0.65rem;
 		letter-spacing: 0.04em;
@@ -761,7 +751,7 @@
 		border-radius: var(--border-radius);
 		text-align: center;
 		color: var(--text-light);
-		border: 1px dashed rgba(0, 0, 0, 0.1);
+		border: 1px dashed var(--border);
 	}
 
 	.no-data-icon {
@@ -786,7 +776,7 @@
 		height: calc(100vh - 180px);
 		border-radius: var(--border-radius);
 		overflow: hidden;
-		border: 1px solid rgba(0, 0, 0, 0.05);
+		border: 1px solid var(--border);
 		box-shadow: var(--shadow-md);
 		position: relative;
 	}
@@ -804,7 +794,7 @@
 		text-align: center;
 		padding: 2rem;
 		margin-top: auto;
-		border-top: 1px solid rgba(0, 0, 0, 0.05);
+		border-top: 1px solid var(--border);
 		background: var(--surface-1);
 	}
 
@@ -821,7 +811,7 @@
 		height: 56px;
 		border-radius: 50%;
 		background: var(--primary);
-		color: white;
+		color: var(--surface-1);
 		border: none;
 		font-size: 1.6rem;
 		box-shadow: var(--shadow-lg);
@@ -835,8 +825,8 @@
 
 	.suggest-fab:hover {
 		transform: scale(1.08) rotate(10deg);
-		background: var(--primary-dark);
-		box-shadow: 0 8px 28px rgba(255, 56, 92, 0.35);
+		background: var(--primary-hover);
+		box-shadow: var(--shadow-lg);
 	}
 
 	.suggest-fab:active {
@@ -885,6 +875,6 @@
 
 	.reset-btn:hover {
 		background: var(--primary);
-		color: white;
+		color: var(--surface-1);
 	}
 </style>

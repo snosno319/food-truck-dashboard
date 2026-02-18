@@ -74,7 +74,7 @@
 		gap: 1px;
 		padding: 0.5rem 0.65rem;
 		background: var(--surface-1);
-		border: 1.5px solid rgba(0, 0, 0, 0.1);
+		border: 1.5px solid var(--border);
 		border-radius: 12px;
 		white-space: nowrap;
 		transition: all 0.2s;

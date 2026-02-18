@@ -79,13 +79,20 @@ const ALIASES = {
     'おばんざいバル': 'truck-1771400426444',
     '早稲田ゴールデン': 'truck-1771400426445',
     'chopi rich': 'chopi-rich',
-    "waka's kitchen": 'wakas-kitchen3',
+    "waka's kitchen": 'wakas-kitchen',
+    "waka's  kitchen": 'wakas-kitchen',
     'mogu mogu stand': 'mogu-mogu-stand',
     'burn.': 'burn',
     'mos burger kitchen car': 'mos5050th-mos',
     'mos50': 'mos5050th-mos',
+    'モスのキッチンカー「mos50一号車」': 'mos5050th-mos',
     'まごころkitchen ととちゃん': 'kitchen',
     'ぞうさん食堂': 'truck-1771400426447',
+    // Newly discovered trucks
+    '海鮮ボンクラージュ': 'truck-1771418341566',
+    'kuokoa': 'kuokoa',
+    'カーニャパッソ': 'truck-1771418341569',
+    'ピエニ キッサ': 'truck-1771405545500',
 };
 
 /**
@@ -172,23 +179,32 @@ export function findMatch(rawName, existingTrucks) {
     return null;
 }
 
+/**
+ * Cuisine detection keywords, ordered from most specific to most generic.
+ * First match wins, so specific ethnic cuisines come before broad categories.
+ * Avoid overly generic words (kitchen, lunch, cafe) that cause false positives.
+ */
 const CUISINE_KEYWORDS = [
-    { key: 'hawaiian', label: 'ハワイアン', keywords: ['hawaii', 'poke', 'loco', 'ポキ', 'ロコモコ'] },
+    // Specific ethnic cuisines first
+    { key: 'hawaiian', label: 'ハワイアン', keywords: ['hawaii', 'poke', 'loco', 'ポキ', 'ロコモコ', 'aloha'] },
     { key: 'kebab', label: 'ケバブ', keywords: ['kebab', 'ケバブ', 'ハラル', 'halal', 'ファラフェル', 'falafel'] },
-    { key: 'chicken', label: 'チキン', keywords: ['chicken', 'チキン', '唐揚', 'からあげ', 'ロティサリー', 'rotisserie', '鷄', '照り焼きチキン', 'テリヤキチキン'] },
-    { key: 'curry', label: 'カレー', keywords: ['curry', 'カレー', 'インド', 'ビリヤニ', 'biryani', 'スパイスカレー', 'カリー'] },
-    { key: 'italian', label: 'イタリアン', keywords: ['pizza', 'pasta', 'lasagna', 'italian', 'ピザ', 'パスタ', 'ラザニア', 'イタリアン', 'sicil'] },
-    { key: 'pork', label: 'ポーク', keywords: ['pork', 'pig', 'ポーク', '豚', 'ホルモン'] },
-    { key: 'meat', label: '肉料理', keywords: ['beef', 'meat', 'steak', 'hamburg', 'shalasco', 'que bom', 'lamb', '肉', 'ステーキ', 'ハンバーグ', 'シュラスコ', '牛', '焼肉', 'boucherie', 'ローストポーク'] },
-    { key: 'chinese', label: '中華', keywords: ['chinese', 'gyoza', 'dimsum', '中華', '餃子', '麻婆', '炒飯'] },
-    { key: 'korean', label: '韓国料理', keywords: ['korea', 'bibimbap', 'pocha', '韓国', 'ビビンバ', 'ポチャ', 'チヂミ', 'k-food'] },
+    { key: 'korean', label: '韓国料理', keywords: ['korea', 'bibimbap', 'pocha', '韓国', 'ビビンバ', 'ポチャ', 'チヂミ', 'k-food', '韓美味'] },
     { key: 'vietnamese', label: 'ベトナム', keywords: ['vietnam', 'banh mi', 'pho', 'ベトナム', 'バインミー', 'フォー'] },
     { key: 'okinawan', label: '沖縄料理', keywords: ['okinawa', 'taco', 'spam', '沖縄', 'タコライス'] },
+    { key: 'chinese', label: '中華', keywords: ['chinese', 'gyoza', 'dimsum', '中華', '餃子', '麻婆', '炒飯', '魯肉飯'] },
+    { key: 'italian', label: 'イタリアン', keywords: ['pizza', 'pasta', 'lasagna', 'italian', 'ピザ', 'パスタ', 'ラザニア', 'イタリアン', 'sicil'] },
+    // Protein-focused
+    { key: 'chicken', label: 'チキン', keywords: ['chicken', 'チキン', '唐揚', 'からあげ', 'ロティサリー', 'rotisserie', '鷄', '照り焼きチキン', 'テリヤキチキン'] },
+    { key: 'curry', label: 'カレー', keywords: ['curry', 'カレー', 'インド', 'ビリヤニ', 'biryani', 'スパイスカレー', 'カリー'] },
+    { key: 'meat', label: '肉料理', keywords: ['beef', 'meat', 'steak', 'hamburg', 'shalasco', 'que bom', 'lamb', 'pork', '肉', 'ステーキ', 'ハンバーグ', 'シュラスコ', '牛', '焼肉', 'boucherie', 'ローストポーク', '豚', 'ホルモン'] },
+    // Broad Asian (after specific ones so Korean/Vietnamese/Chinese match first)
     { key: 'asian', label: 'アジアン', keywords: ['asian', 'thai', 'gapao', 'nasi', 'adobo', 'taiwan', 'アジアン', 'タイ', 'ガパオ', 'ナシゴレン', 'アドボ', '台湾', 'ルーロー', 'ナンロール', 'ナン', 'スパイス'] },
+    // Food types
     { key: 'bread', label: 'パン', keywords: ['bread', 'sandwich', 'hotdog', 'burger', 'パン', 'サンド', 'バーガー', 'ドッグ', 'coppe', 'ホットドッグ', 'ホットドック', 'スラッピージョー'] },
-    { key: 'japanese', label: '和食', keywords: ['japanese', 'sushi', 'don', 'tempura', '和食', '寿司', '丼', '天ぷら', 'うどん', 'そば', '鰻', '西京', 'fish', '魚', 'かつ丼', 'カツ', 'やきそば', '焼きそば'] },
-    { key: 'sweets', label: 'スイーツ', keywords: ['crepe', 'sweets', 'cafe', 'coffee', 'クレープ', 'スイーツ', 'カフェ', 'crakey'] },
-    { key: 'western', label: '洋食', keywords: ['western', 'omurice', 'bistro', '洋食', 'オムライス', 'キッチン', 'kitchen', 'restaurant', 'cafe', 'bento', 'box', 'lunch'] }
+    { key: 'japanese', label: '和食', keywords: ['japanese', 'sushi', 'tempura', '和食', '寿司', '丼', '天ぷら', 'うどん', 'そば', '鰻', '西京', '魚', 'かつ丼', 'カツ', 'やきそば', '焼きそば', 'おばんざい', 'にぎり'] },
+    { key: 'sweets', label: 'スイーツ', keywords: ['crepe', 'sweets', 'coffee', 'クレープ', 'スイーツ', 'カフェ', 'crakey'] },
+    // Most generic — only matches if nothing else did
+    { key: 'western', label: '洋食', keywords: ['western', 'omurice', 'bistro', '洋食', 'オムライス'] },
 ];
 
 /**

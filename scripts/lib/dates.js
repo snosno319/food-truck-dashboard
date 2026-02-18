@@ -28,32 +28,13 @@ export function getCurrentWeekDates() {
  * @param {Date} d
  * @returns {string}
  */
-function formatDateISO(d) {
+export function formatDateISO(d) {
     const yyyy = d.getFullYear();
     const mm = String(d.getMonth() + 1).padStart(2, '0');
     const dd = String(d.getDate()).padStart(2, '0');
     return `${yyyy}-${mm}-${dd}`;
 }
 
-/**
- * Get two weeks of Mon-Fri dates (current + next week).
- * Useful for scraping ahead.
- * @returns {string[]} Array of 10 ISO date strings
- */
-export function getTwoWeekDates() {
-    const week1 = getCurrentWeekDates();
-    const lastDay = new Date(week1[week1.length - 1] + 'T00:00:00');
-    const nextMonday = new Date(lastDay);
-    nextMonday.setDate(lastDay.getDate() + 3); // Fri + 3 = Mon
-
-    const week2 = [];
-    for (let i = 0; i < 5; i++) {
-        const d = new Date(nextMonday);
-        d.setDate(nextMonday.getDate() + i);
-        week2.push(d.toISOString().slice(0, 10));
-    }
-    return [...week1, ...week2];
-}
 
 /**
  * Map a Japanese day-of-week name to an ISO date within the given week dates.

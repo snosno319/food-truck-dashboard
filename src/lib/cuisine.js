@@ -17,6 +17,7 @@ export const CUISINE_MAP = {
 	okinawan: { emoji: '🌴', bg: '#e0f7fa', text: '#00838f', gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' },
 	kebab: { emoji: '🥙', bg: '#fff8e1', text: '#bf360c', gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)' },
 	bento: { emoji: '🍙', bg: '#f3e5f5', text: '#7b1fa2', gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' },
+	pork: { emoji: '🐷', bg: '#fef0f0', text: '#c0392b', gradient: 'linear-gradient(135deg, #FF9A9E 0%, #FECFEF 100%)' },
 	bread: { emoji: '🥖', bg: '#fbe9e7', text: '#a1887f', gradient: 'linear-gradient(135deg, #d299c2 0%, #fef9d7 100%)' },
 	chinese: { emoji: '🥟', bg: '#fff0f0', text: '#d32f2f', gradient: 'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)' },
 	vietnamese: { emoji: '🥢', bg: '#f1f8e9', text: '#558b2f', gradient: 'linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)' },

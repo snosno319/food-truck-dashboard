@@ -3,6 +3,32 @@
  */
 
 /**
+ * Format a Date as YYYY-MM-DD in local timezone (avoids UTC offset issues).
+ * @param {Date} d
+ * @returns {string}
+ */
+export function formatDateISO(d) {
+	const yyyy = d.getFullYear();
+	const mm = String(d.getMonth() + 1).padStart(2, '0');
+	const dd = String(d.getDate()).padStart(2, '0');
+	return `${yyyy}-${mm}-${dd}`;
+}
+
+/**
+ * Format a Date for display in Japanese locale (e.g., "2月18日 12:30").
+ * @param {Date} d
+ * @returns {string}
+ */
+export function formatDateJP(d) {
+	return d.toLocaleString('ja-JP', {
+		month: 'short',
+		day: 'numeric',
+		hour: '2-digit',
+		minute: '2-digit',
+	});
+}
+
+/**
  * Check if a venue is currently open based on its hours string.
  * @param {string} hoursStr - e.g. "11:00-14:00"
  * @param {Date} [now] - Current time (defaults to new Date())
@@ -40,9 +66,6 @@ export function buildDays(from, count = 7) {
 	return Array.from({ length: count }, (_, i) => {
 		const d = new Date(from);
 		d.setDate(d.getDate() + i);
-		const yyyy = d.getFullYear();
-		const mm = String(d.getMonth() + 1).padStart(2, '0');
-		const dd = String(d.getDate()).padStart(2, '0');
-		return `${yyyy}-${mm}-${dd}`;
+		return formatDateISO(d);
 	});
 }

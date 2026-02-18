@@ -68,7 +68,7 @@
 		gap: 0.3rem;
 		padding: 0.45rem 1rem;
 		background: var(--surface-1);
-		border: 1px solid rgba(0, 0, 0, 0.05);
+		border: 1px solid var(--border);
 		border-radius: 999px;
 		white-space: nowrap;
 		font-size: 0.85rem;

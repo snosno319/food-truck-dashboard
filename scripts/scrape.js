@@ -9,17 +9,11 @@
  */
 
 import { readFileSync, writeFileSync } from 'node:fs';
-import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
 
 import { VENUES } from './config.js';
 import { getCurrentWeekDates } from './lib/dates.js';
 import { findMatch, createPlaceholder, detectCuisine } from './lib/normalize.js';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = join(__dirname, '..', 'static', 'data');
-const TRUCKS_PATH = join(DATA_DIR, 'trucks.json');
-const SCHEDULE_PATH = join(DATA_DIR, 'schedule.json');
+import { TRUCKS_PATH, SCHEDULE_PATH } from './lib/paths.js';
 
 /**
  * Dynamically import the scraper module for a given parser name.

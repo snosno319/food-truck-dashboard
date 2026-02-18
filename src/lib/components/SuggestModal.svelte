@@ -14,39 +14,38 @@
 	let selectedMood = "";
 	let result = null;
 
+	/**
+	 * Mood-based cuisine matching.
+	 * Uses cuisine *keys* (from CUISINE_MAP) for reliable matching,
+	 * not display labels which can change or be localized.
+	 */
 	const MOODS = [
 		{
 			key: "heavy",
 			label: "ガッツリ",
 			emoji: "🍖",
-			cuisines: ["和食", "Meat", "肉", "カレー", "Curry"],
+			cuisineKeys: ["japanese", "meat", "curry", "chicken", "pork", "korean", "chinese"],
 		},
 		{
 			key: "light",
 			label: "あっさり",
 			emoji: "🥗",
-			cuisines: ["サラダ", "ハワイアン", "Asian", "アジアン"],
+			cuisineKeys: ["hawaiian", "asian", "vietnamese", "bread"],
 		},
 		{
 			key: "spicy",
 			label: "辛いもの",
 			emoji: "🌶️",
-			cuisines: ["カレー", "Curry", "タイ", "Thai", "韓国", "Korean"],
+			cuisineKeys: ["curry", "korean", "asian"],
 		},
-		{ key: "adventure", label: "冒険したい", emoji: "🎲", cuisines: [] },
+		{ key: "adventure", label: "冒険したい", emoji: "🎲", cuisineKeys: [] },
 	];
 
 	function getAllTrucksWithVenue() {
 		const items = [];
 		for (const venue of venues) {
 			const trucks = trucksByVenue.get(venue.id) || [];
-			// Check if open (simple check, assuming current time is relevant)
-			// We can pass current time as prop, but for now we re-calc or assumes checks happened
-			// Better: pass `isOpen` status with venue or re-calc here.
-			// Let's re-calc using a helper for now to be self-contained or pass from parent.
-			// For simplicity/robustness, let's look at venue.hours if available.
 			const isOpen = isVenueOpen(venue.hours);
-
 			for (const truck of trucks) {
 				items.push({ truck, venue, isOpen });
 			}
@@ -80,18 +79,11 @@
 		const all = getAllTrucksWithVenue();
 		let filtered;
 
-		if (mood.key === "adventure") {
-			// Pick something random — no filtering
+		if (mood.key === "adventure" || mood.cuisineKeys.length === 0) {
 			filtered = all;
 		} else {
-			// Match by cuisine_label
-			filtered = all.filter((item) =>
-				mood.cuisines.some(
-					(c) =>
-						item.truck.cuisine_label.includes(c) ||
-						item.truck.cuisine.includes(c.toLowerCase()),
-				),
-			);
+			const keys = new Set(mood.cuisineKeys);
+			filtered = all.filter((item) => keys.has(item.truck.cuisine));
 		}
 
 		// Prefer open venues if possible
@@ -99,25 +91,11 @@
 		if (openOnes.length > 0) {
 			filtered = openOnes;
 		}
-		// If NO open venues match the mood, we fall back to closed ones (or show "none open")
-		// Design choice: Show closed but maybe warn? Or just return filtered as is if empty.
-		// Let's stick to "prefer open".
 
-		if (filtered.length === 0) {
-			// Try fallback to ANY open ones? No, respect mood first.
-			// Just use all matching (even if closed) if no open ones match mood.
-			// Re-filter by mood only
-			if (mood.key !== "adventure") {
-				filtered = all.filter((item) =>
-					mood.cuisines.some(
-						(c) =>
-							item.truck.cuisine_label.includes(c) ||
-							item.truck.cuisine.includes(c.toLowerCase()),
-					),
-				);
-			} else {
-				filtered = all;
-			}
+		// If no open matches, fall back to all matching (even closed)
+		if (filtered.length === 0 && mood.key !== "adventure") {
+			const keys = new Set(mood.cuisineKeys);
+			filtered = all.filter((item) => keys.has(item.truck.cuisine));
 		}
 
 		setTimeout(() => {
@@ -275,7 +253,7 @@
 		align-items: center;
 		width: 100%;
 		padding: 1rem;
-		border: 2px solid rgba(0, 0, 0, 0.08);
+		border: 2px solid var(--border);
 		border-radius: 12px;
 		background: var(--surface-1);
 		margin-bottom: 0.75rem;
@@ -285,7 +263,7 @@
 
 	.action-btn:hover {
 		border-color: var(--primary);
-		background: #fff5f5;
+		background: var(--surface-2);
 	}
 
 	.btn-emoji {
@@ -319,7 +297,7 @@
 		align-items: center;
 		gap: 0.25rem;
 		padding: 1rem 0.5rem;
-		border: 2px solid rgba(0, 0, 0, 0.08);
+		border: 2px solid var(--border);
 		border-radius: 12px;
 		background: var(--surface-1);
 		cursor: pointer;
@@ -328,7 +306,7 @@
 
 	.mood-btn:hover {
 		border-color: var(--primary);
-		background: #fff5f5;
+		background: var(--surface-2);
 	}
 
 	.mood-emoji {
@@ -388,7 +366,7 @@
 	.result-badge {
 		display: inline-block;
 		background: var(--primary);
-		color: white;
+		color: var(--surface-1);
 		padding: 0.2rem 0.6rem;
 		border-radius: 20px;
 		font-size: 0.75rem;
@@ -416,7 +394,7 @@
 	}
 
 	.closed-warning {
-		color: #e03131;
+		color: var(--danger);
 		font-weight: bold;
 		margin-left: 0.5rem;
 		font-size: 0.75rem;
@@ -444,7 +422,7 @@
 		width: 100%;
 		padding: 0.75rem;
 		background: var(--primary);
-		color: white;
+		color: var(--surface-1);
 		border: none;
 		border-radius: 50px;
 		font-size: 0.95rem;
@@ -467,7 +445,7 @@
 
 	.retry-btn {
 		background: none;
-		border: 1px solid #ddd;
+		border: 1px solid var(--border);
 		border-radius: 20px;
 		padding: 0.5rem 1.25rem;
 		color: var(--text-light);

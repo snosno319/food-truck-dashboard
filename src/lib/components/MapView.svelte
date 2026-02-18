@@ -377,7 +377,7 @@
     .sheet-handle {
         width: 36px;
         height: 4px;
-        background: rgba(0, 0, 0, 0.15);
+        background: var(--text-lighter);
         border-radius: 2px;
     }
 
@@ -386,7 +386,7 @@
         align-items: flex-start;
         justify-content: space-between;
         padding: 0 16px 12px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        border-bottom: 1px solid var(--border);
     }
 
     .sheet-venue-info {
@@ -445,7 +445,7 @@
         align-items: center;
         gap: 10px;
         padding: 10px 4px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+        border-bottom: 1px solid var(--border);
         transition: background 0.15s;
     }
 
@@ -515,8 +515,8 @@
     }
 
     .mini-badge.preorder {
-        background: #e6fcf5;
-        color: var(--success, #00B894);
+        background: color-mix(in srgb, var(--success) 12%, transparent);
+        color: var(--success);
     }
 
     .mini-fav-btn {
@@ -528,13 +528,13 @@
         border-radius: 50%;
         border: none;
         background: transparent;
-        color: #ccc;
+        color: var(--text-lighter);
         cursor: pointer;
         transition: all 0.15s;
     }
 
     .mini-fav-btn:hover {
-        background: rgba(0, 0, 0, 0.04);
+        background: var(--surface-2);
         color: var(--primary);
     }
 
