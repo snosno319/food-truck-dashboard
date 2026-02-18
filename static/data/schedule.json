@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-18T12:39:01.572Z",
-  "week_start": "2026-02-18",
-  "week_end": "2026-02-24",
+  "last_updated": "2026-02-18T22:02:52.946Z",
+  "week_start": "2026-02-19",
+  "week_end": "2026-02-25",
   "source_runs": [
     {
       "venue_id": "kawabata",
@@ -36,11 +36,11 @@
     {
       "venue_id": "sankei",
       "status": "ok",
-      "entries_count": 19
+      "entries_count": 13
     }
   ],
   "data_quality": {
-    "total_entries": 133,
+    "total_entries": 124,
     "venues_scraped": 7,
     "weekdays_in_window": 5,
     "per_venue": {
@@ -57,7 +57,7 @@
         "missing_weekdays": []
       },
       "otemachi-park": {
-        "total_entries": 12,
+        "total_entries": 11,
         "days_with_data": 5,
         "weekdays_in_window": 5,
         "missing_weekdays": []
@@ -75,18 +75,19 @@
         "missing_weekdays": []
       },
       "tokyo-torch-park": {
-        "total_entries": 20,
+        "total_entries": 17,
         "days_with_data": 5,
         "weekdays_in_window": 5,
         "missing_weekdays": []
       },
       "sankei": {
-        "total_entries": 21,
-        "days_with_data": 3,
+        "total_entries": 16,
+        "days_with_data": 2,
         "weekdays_in_window": 5,
         "missing_weekdays": [
           "2026-02-23",
-          "2026-02-24"
+          "2026-02-24",
+          "2026-02-25"
         ]
       }
     }
@@ -146,51 +147,6 @@
       "date": "2026-02-24",
       "venue_id": "kawabata",
       "truck_id": "yoshinoya"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "truck-1771319209348"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "truck-1771329561502"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "boucherie-gokita-tokyo"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "sicil"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "truck-1771329561503"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "sunday-food-service"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "camosica"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "leo-street"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "kawabata",
-      "truck_id": "101s"
     },
     {
       "date": "2026-02-19",
@@ -288,21 +244,6 @@
       "truck_id": "truck-1771400426438"
     },
     {
-      "date": "2026-02-18",
-      "venue_id": "otemachi-place",
-      "truck_id": "island"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "otemachi-place",
-      "truck_id": "quebom"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "otemachi-place",
-      "truck_id": "saikyoya"
-    },
-    {
       "date": "2026-02-19",
       "venue_id": "otemachi-place",
       "truck_id": "otori"
@@ -353,16 +294,6 @@
       "truck_id": "fuu"
     },
     {
-      "date": "2026-02-18",
-      "venue_id": "otemachi-park",
-      "truck_id": "guri-fura"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "otemachi-park",
-      "truck_id": "truck-1771400426440"
-    },
-    {
       "date": "2026-02-19",
       "venue_id": "otemachi-park",
       "truck_id": "toraju"
@@ -401,16 +332,6 @@
       "date": "2026-02-24",
       "venue_id": "marunouchi-trust",
       "truck_id": "truck-1771331034970"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "marunouchi-trust",
-      "truck_id": "grace-lei"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "marunouchi-trust",
-      "truck_id": "truck-1771331034971"
     },
     {
       "date": "2026-02-19",
@@ -453,16 +374,6 @@
       "truck_id": "truck-1771400426442"
     },
     {
-      "date": "2026-02-18",
-      "venue_id": "tokyo-torch-tower",
-      "truck_id": "48-484"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "tokyo-torch-tower",
-      "truck_id": "dublin-7-food-truck"
-    },
-    {
       "date": "2026-02-19",
       "venue_id": "tokyo-torch-tower",
       "truck_id": "wellvide"
@@ -503,21 +414,6 @@
       "truck_id": "chopi-rich"
     },
     {
-      "date": "2026-02-18",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "truck-1771400426445"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "wakas-kitchen3"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "mogu-mogu-stand"
-    },
-    {
       "date": "2026-02-19",
       "venue_id": "tokyo-torch-park",
       "truck_id": "burn"
@@ -546,36 +442,6 @@
       "date": "2026-02-20",
       "venue_id": "tokyo-torch-park",
       "truck_id": "kitchen"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "sankei",
-      "truck_id": "truck-1771331034970"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "sankei",
-      "truck_id": "ricordo"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "sankei",
-      "truck_id": "manis-pedas"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "sankei",
-      "truck_id": "truck-1771243789620"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "sankei",
-      "truck_id": "truck-1771340572886"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "sankei",
-      "truck_id": "truck-1771329561506"
     },
     {
       "date": "2026-02-19",
@@ -643,11 +509,6 @@
       "truck_id": "truck-1771405545492"
     },
     {
-      "date": "2026-02-18",
-      "venue_id": "otemachi-park",
-      "truck_id": "truck-1771405545493"
-    },
-    {
       "date": "2026-02-19",
       "venue_id": "otemachi-park",
       "truck_id": "truck-1771405545494"
@@ -678,11 +539,6 @@
       "truck_id": "truck-1771405545499"
     },
     {
-      "date": "2026-02-18",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "truck-1771405545499"
-    },
-    {
       "date": "2026-02-19",
       "venue_id": "sankei",
       "truck_id": "truck-1771405545500"
@@ -701,11 +557,6 @@
       "date": "2026-02-23",
       "venue_id": "tokyo-torch-park",
       "truck_id": "truck-1771405919290"
-    },
-    {
-      "date": "2026-02-18",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "truck-1771405919291"
     },
     {
       "date": "2026-02-20",
@@ -743,11 +594,6 @@
       "truck_id": "truck-1771340572885"
     },
     {
-      "date": "2026-02-18",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "wakas-kitchen"
-    },
-    {
       "date": "2026-02-20",
       "venue_id": "tokyo-torch-park",
       "truck_id": "mos50"
@@ -756,6 +602,116 @@
       "date": "2026-02-20",
       "venue_id": "sankei",
       "truck_id": "truck-1771418341569"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771319209348"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771329561502"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "boucherie-gokita-tokyo"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "sicil"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "truck-1771329561503"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "sunday-food-service"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "camosica"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "leo-street"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "kawabata",
+      "truck_id": "101s"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "otemachi-place",
+      "truck_id": "island"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "otemachi-place",
+      "truck_id": "quebom"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "otemachi-place",
+      "truck_id": "saikyoya"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "otemachi-park",
+      "truck_id": "guri-fura"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "otemachi-park",
+      "truck_id": "truck-1771400426440"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "grace-lei"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "truck-1771331034971"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "48-484"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "dublin-7-food-truck"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771405919291"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "wakas-kitchen"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "mogu-mogu-stand"
+    },
+    {
+      "date": "2026-02-20",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771452172945"
     }
   ]
 }
