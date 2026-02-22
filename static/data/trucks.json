@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18",
+  "last_updated": "2026-02-22",
   "venues": [
     {
       "id": "kawabata",
@@ -1262,6 +1262,15 @@
     {
       "id": "truck-1771452172945",
       "name": "てふてふ",
+      "cuisine": "unknown",
+      "cuisine_label": "?",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "vw-cafe-dove-blue",
+      "name": "VW CAFE DOVE BLUE",
       "cuisine": "unknown",
       "cuisine_label": "?",
       "contact_instagram": "",

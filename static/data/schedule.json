@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-20T21:51:44.178Z",
-  "week_start": "2026-02-21",
-  "week_end": "2026-02-27",
+  "last_updated": "2026-02-22T21:50:00.564Z",
+  "week_start": "2026-02-23",
+  "week_end": "2026-03-01",
   "source_runs": [
     {
       "venue_id": "kawabata",
@@ -36,12 +36,12 @@
     {
       "venue_id": "sankei",
       "status": "ok",
-      "entries_count": 0
+      "entries_count": 25
     }
   ],
   "data_quality": {
-    "total_entries": 100,
-    "venues_scraped": 6,
+    "total_entries": 125,
+    "venues_scraped": 7,
     "weekdays_in_window": 5,
     "per_venue": {
       "kawabata": {
@@ -79,6 +79,14 @@
         "days_with_data": 5,
         "weekdays_in_window": 5,
         "missing_weekdays": []
+      },
+      "sankei": {
+        "total_entries": 25,
+        "days_with_data": 4,
+        "weekdays_in_window": 5,
+        "missing_weekdays": [
+          "2026-02-23"
+        ]
       }
     }
   },
@@ -582,6 +590,131 @@
       "date": "2026-02-27",
       "venue_id": "tokyo-torch-park",
       "truck_id": "kitchen"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "sankei",
+      "truck_id": "ren"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "sankei",
+      "truck_id": "taiwan-saki"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "sankei",
+      "truck_id": "mika-banhmi"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "sankei",
+      "truck_id": "plus-spice"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "sankei",
+      "truck_id": "bonappetit"
+    },
+    {
+      "date": "2026-02-24",
+      "venue_id": "sankei",
+      "truck_id": "wa-tokyo"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771331034970"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771340572886"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771243789620"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "sankei",
+      "truck_id": "ricordo"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "sankei",
+      "truck_id": "manis-pedas"
+    },
+    {
+      "date": "2026-02-25",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771329561506"
+    },
+    {
+      "date": "2026-02-26",
+      "venue_id": "sankei",
+      "truck_id": "tokyo-paella"
+    },
+    {
+      "date": "2026-02-26",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771400426447"
+    },
+    {
+      "date": "2026-02-26",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771340572887"
+    },
+    {
+      "date": "2026-02-26",
+      "venue_id": "sankei",
+      "truck_id": "addict"
+    },
+    {
+      "date": "2026-02-26",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771405545500"
+    },
+    {
+      "date": "2026-02-26",
+      "venue_id": "sankei",
+      "truck_id": "yummy-e"
+    },
+    {
+      "date": "2026-02-27",
+      "venue_id": "sankei",
+      "truck_id": "vw-cafe-dove-blue"
+    },
+    {
+      "date": "2026-02-27",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771331034971"
+    },
+    {
+      "date": "2026-02-27",
+      "venue_id": "sankei",
+      "truck_id": "spice-village"
+    },
+    {
+      "date": "2026-02-27",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771452172945"
+    },
+    {
+      "date": "2026-02-27",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771418341569"
+    },
+    {
+      "date": "2026-02-27",
+      "venue_id": "sankei",
+      "truck_id": "estokyo"
+    },
+    {
+      "date": "2026-02-27",
+      "venue_id": "sankei",
+      "truck_id": "truck-1771319209350"
     }
   ]
 }
