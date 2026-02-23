@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-23T12:04:59.482Z",
-  "week_start": "2026-02-23",
-  "week_end": "2026-03-01",
+  "last_updated": "2026-02-23T23:09:04.196Z",
+  "week_start": "2026-02-24",
+  "week_end": "2026-03-02",
   "source_runs": [
     {
       "venue_id": "kawabata",
@@ -40,7 +40,7 @@
     }
   ],
   "data_quality": {
-    "total_entries": 125,
+    "total_entries": 122,
     "venues_scraped": 7,
     "weekdays_in_window": 5,
     "per_venue": {
@@ -51,7 +51,7 @@
         "missing_weekdays": []
       },
       "otemachi-place": {
-        "total_entries": 20,
+        "total_entries": 18,
         "days_with_data": 5,
         "weekdays_in_window": 5,
         "missing_weekdays": []
@@ -75,7 +75,7 @@
         "missing_weekdays": []
       },
       "tokyo-torch-park": {
-        "total_entries": 16,
+        "total_entries": 15,
         "days_with_data": 5,
         "weekdays_in_window": 5,
         "missing_weekdays": []
@@ -85,32 +85,12 @@
         "days_with_data": 4,
         "weekdays_in_window": 5,
         "missing_weekdays": [
-          "2026-02-23"
+          "2026-03-02"
         ]
       }
     }
   },
   "schedule": [
-    {
-      "date": "2026-02-23",
-      "venue_id": "kawabata",
-      "truck_id": "lino-marama"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "kawabata",
-      "truck_id": "kitchen-agaityla"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "kawabata",
-      "truck_id": "beside-u"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "kawabata",
-      "truck_id": "leo-street"
-    },
     {
       "date": "2026-02-24",
       "venue_id": "kawabata",
@@ -147,29 +127,9 @@
       "truck_id": "yoshinoya"
     },
     {
-      "date": "2026-02-23",
-      "venue_id": "otemachi-place",
-      "truck_id": "kusina"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "otemachi-place",
-      "truck_id": "anne-may"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "otemachi-place",
-      "truck_id": "truck-1771400426438"
-    },
-    {
       "date": "2026-02-24",
       "venue_id": "otemachi-place",
       "truck_id": "truck-1771400426438"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "otemachi-park",
-      "truck_id": "uzura-oimo"
     },
     {
       "date": "2026-02-24",
@@ -182,16 +142,6 @@
       "truck_id": "fuu"
     },
     {
-      "date": "2026-02-23",
-      "venue_id": "marunouchi-trust",
-      "truck_id": "zono"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "marunouchi-trust",
-      "truck_id": "truck-1771400426441"
-    },
-    {
       "date": "2026-02-24",
       "venue_id": "marunouchi-trust",
       "truck_id": "island-kitchen"
@@ -200,16 +150,6 @@
       "date": "2026-02-24",
       "venue_id": "marunouchi-trust",
       "truck_id": "truck-1771331034970"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "tokyo-torch-tower",
-      "truck_id": "18s-kitchen-market"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "tokyo-torch-tower",
-      "truck_id": "truck-1771400426442"
     },
     {
       "date": "2026-02-24",
@@ -222,16 +162,6 @@
       "truck_id": "truck-1771400426442"
     },
     {
-      "date": "2026-02-23",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "truck-1771400426444"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "mrchicken"
-    },
-    {
       "date": "2026-02-24",
       "venue_id": "tokyo-torch-park",
       "truck_id": "truck-1771400426445"
@@ -240,11 +170,6 @@
       "date": "2026-02-24",
       "venue_id": "tokyo-torch-park",
       "truck_id": "chopi-rich"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "otemachi-place",
-      "truck_id": "truck-1771405545492"
     },
     {
       "date": "2026-02-24",
@@ -257,11 +182,6 @@
       "truck_id": "truck-1771405545497"
     },
     {
-      "date": "2026-02-23",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "truck-1771405545498"
-    },
-    {
       "date": "2026-02-24",
       "venue_id": "tokyo-torch-park",
       "truck_id": "truck-1771405545499"
@@ -270,16 +190,6 @@
       "date": "2026-02-24",
       "venue_id": "otemachi-place",
       "truck_id": "truck-1771405919288"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "tokyo-torch-park",
-      "truck_id": "truck-1771405919290"
-    },
-    {
-      "date": "2026-02-23",
-      "venue_id": "otemachi-place",
-      "truck_id": "shofukudo"
     },
     {
       "date": "2026-02-24",
@@ -715,6 +625,81 @@
       "date": "2026-02-27",
       "venue_id": "sankei",
       "truck_id": "truck-1771319209350"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "kawabata",
+      "truck_id": "lino-marama"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "kawabata",
+      "truck_id": "kitchen-agaityla"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "kawabata",
+      "truck_id": "beside-u"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "kawabata",
+      "truck_id": "leo-street"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "otemachi-place",
+      "truck_id": "kusina"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "otemachi-place",
+      "truck_id": "anne-may"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "otemachi-place",
+      "truck_id": "shofukudo"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "otemachi-park",
+      "truck_id": "uzura-oimo"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "zono"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "marunouchi-trust",
+      "truck_id": "truck-1771400426441"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "18s-kitchen-market"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "truck-1771400426442"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771400426444"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "mrchicken"
+    },
+    {
+      "date": "2026-03-02",
+      "venue_id": "tokyo-torch-park",
+      "truck_id": "truck-1771405919290"
     }
   ]
 }
