@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T23:09:04.196Z",
+  "last_updated": "2026-02-24T06:15:45.321Z",
   "week_start": "2026-02-24",
   "week_end": "2026-03-02",
   "source_runs": [
@@ -26,7 +26,7 @@
     {
       "venue_id": "tokyo-torch-tower",
       "status": "ok",
-      "entries_count": 9
+      "entries_count": 10
     },
     {
       "venue_id": "tokyo-torch-park",
@@ -40,7 +40,7 @@
     }
   ],
   "data_quality": {
-    "total_entries": 122,
+    "total_entries": 123,
     "venues_scraped": 7,
     "weekdays_in_window": 5,
     "per_venue": {
@@ -69,7 +69,7 @@
         "missing_weekdays": []
       },
       "tokyo-torch-tower": {
-        "total_entries": 10,
+        "total_entries": 11,
         "days_with_data": 5,
         "weekdays_in_window": 5,
         "missing_weekdays": []
@@ -700,6 +700,11 @@
       "date": "2026-03-02",
       "venue_id": "tokyo-torch-park",
       "truck_id": "truck-1771405919290"
+    },
+    {
+      "date": "2026-02-26",
+      "venue_id": "tokyo-torch-tower",
+      "truck_id": "zen"
     }
   ]
 }

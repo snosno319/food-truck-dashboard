@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22",
+  "last_updated": "2026-02-24",
   "venues": [
     {
       "id": "kawabata",
@@ -1273,6 +1273,15 @@
       "name": "VW CAFE DOVE BLUE",
       "cuisine": "unknown",
       "cuisine_label": "?",
+      "contact_instagram": "",
+      "accepts_preorder": false,
+      "url": ""
+    },
+    {
+      "id": "zen",
+      "name": "きっちんZEN",
+      "cuisine": "asian",
+      "cuisine_label": "アジアン",
       "contact_instagram": "",
       "accepts_preorder": false,
       "url": ""
